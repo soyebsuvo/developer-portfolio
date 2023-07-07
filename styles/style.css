@@ -4,11 +4,13 @@
     padding: 0;
     box-sizing: border-box;
 }
+/* nav section design starts here  */
 nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 5px;
+    margin: 0 200px;
 }
 .nav-title{
     font-size: 45px;
@@ -34,6 +36,9 @@ nav a{
     border-radius: 5px;
     padding: 7px 13px ;
 }
+nav a:hover{
+    text-decoration: underline;
+}
 .btn{
     background-color: #FD6E0A;
     border-radius: 5px;
@@ -49,4 +54,38 @@ nav a{
     color: #474747;
     background: none;
 
+}
+
+/* nav section design ends here  */
+.header{
+    background-color: #FFF8F3;
+}
+.contact-btn{
+    background: none;
+    color: #FD6E0A;
+    width: 110px;
+    margin-left: 10px;
+}
+.banner-div{
+    margin: 10px 120px 10px 207px;
+    display: flex;
+    align-items: center;
+    height: 78vh;
+}
+.banner-profile-pic{
+    width: 300px;
+}
+.banner-1st-text{
+    font-size: 1.9rem;
+    margin-bottom: 4px;
+}
+.banner-title{
+    font-size: 2.5rem;
+    margin-bottom: 5px;
+}
+.banner-para{
+    margin-top: 6px;
+    color: #474747;
+    margin-top: 10px;
+    margin-bottom: 20px;
 }
