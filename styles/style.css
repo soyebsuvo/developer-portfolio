@@ -166,4 +166,17 @@ main{
 }
 .skill-desc{
     font-size: small;
+    color: #474747;
+}.section-descript{
+    font-size: small;
+    color: #474747;
+}
+.summary-container{
+    display: flex;
+}
+.left , .right {
+    padding: 15px;
+}
+.resume{
+    margin: 70px 0px;
 }
