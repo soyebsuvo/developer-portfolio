@@ -308,4 +308,7 @@ footer{
     .footer-column{
         padding: 30px;
     }
+    .btn{
+        margin-bottom: 10px;
+    }
 }
