@@ -122,7 +122,7 @@ nav a:hover{
     text-align: center;
 }
 main{
-    width: 940px;
+    max-width: 940px;
     margin: 0 auto;
 }
 .about-info-container{
@@ -225,4 +225,81 @@ footer{
     background-color: white;
     box-shadow: 0px 0px 0.5px black;
     border-radius: 5px;
+}
+
+/* desktop design closed here */
+/* .hide{
+    display: none;
+} */
+
+@media screen and (max-width:576px) {
+    nav , nav ul , .banner-div{
+        flex-direction: column;
+    }
+    .banner-div{
+        margin: 10px;
+        text-align: center;
+    }
+    nav ul {
+        gap: 20px;
+    }
+    .nav-title{
+        margin-bottom: 10px;
+    }
+    .banner-profile-pic{
+        margin-top: 30px;
+    }
+    .about-info-container{
+        flex-direction: column;
+    }
+    .about-info{
+        margin-bottom: 30px;
+    }
+    .about{
+        padding: 20px;
+    }
+    .skills-container{
+        flex-direction: column;
+        gap: 20px;
+        padding: 0px 30px;
+    }
+    .what-i-do-container {
+        padding:0px 30px 30px 30px;
+    }
+    .skill{
+        width: 100%;
+    }
+    .resume {
+        margin: 50px 0px;
+        padding: 20px;
+    }
+    .summary-container {
+        flex-direction: column;
+    }
+    .left, .right {
+        padding: 25px;
+    }
+    .footer-column {
+        padding: 10px;
+        margin-bottom: 10px;
+    }
+    footer {
+        flex-direction: column;
+        padding: 23px 29px;
+    }
+}
+
+@media screen and (min-width:576px) and (max-width:960px) {
+    .about{
+        padding: 60px;
+    }
+    nav{
+        margin: 0px 70px;
+    }
+    .banner-div{
+    margin: 60px 0px 10px 70px;
+    }
+    .skills-container{
+        padding: 0px 37px;
+    }
 }
