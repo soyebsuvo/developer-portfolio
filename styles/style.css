@@ -302,4 +302,10 @@ footer{
     .skills-container{
         padding: 0px 37px;
     }
+    footer {
+        padding: 13px 19px;
+    }
+    .footer-column{
+        padding: 30px;
+    }
 }
